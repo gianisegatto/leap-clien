@@ -11,6 +11,7 @@
   "dependencies": {
     "leap-core": "github:gianisegatto/leap-core#master",
     "leap-boot": "github:gianisegatto/leap-boot#master",
-    "leap-boot-starter-data-mysql": "github:gianisegatto/leap-boot-starter-data-mysql#master"
+    "leap-boot-bond-data-mysql": "github:gianisegatto/leap-boot-bond-data-mysql#master",
+    "leap-boot-bond-web": "github:gianisegatto/leap-boot-bond-web#master"
   }
 }
