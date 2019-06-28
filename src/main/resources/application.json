@@ -1,6 +1,4 @@
 {
-  "applicationName": "leap-client",
-  "server": {
-    "port": 3333
-  }
+  "applicationName": "pub-leap-client-demo",
+  "serverPort": 3333
 }
