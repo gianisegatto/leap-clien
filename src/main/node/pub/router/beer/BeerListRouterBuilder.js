@@ -1,6 +1,6 @@
 const promiseHandler = require("leap-web").promiseHandler;
 
-class BeerCreateRouterBuilder {
+class BeerListRouterBuilder {
     
     constructor(router, beerListService) {
         this.router = router;
@@ -15,4 +15,4 @@ class BeerCreateRouterBuilder {
     }
 }
 
-module.exports = BeerCreateRouterBuilder;
+module.exports = BeerListRouterBuilder;

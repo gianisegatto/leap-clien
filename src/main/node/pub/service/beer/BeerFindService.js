@@ -5,7 +5,7 @@ class BeerFindService {
     }
 
     findById(id) {
-        this.beerFindRepository.findById(id);
+        return this.beerFindRepository.findById(id);
     }
 
 }

@@ -6,7 +6,7 @@ class BeerFindRepository {
         this.beerRowMapper = beerRowMapper;
     }
 
-    find(username) {
+    findById(id) {
         return this.datasource.query(FIND_BEER, [id], this.beerRowMapper);
     }
 }
