@@ -1,7 +1,7 @@
 {
-  "name": "leap-client",
+  "name": "pub-leap-client-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a demo how to use leap in your projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
