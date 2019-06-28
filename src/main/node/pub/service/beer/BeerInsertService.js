@@ -5,7 +5,7 @@ class BeerInserService {
     }
 
     insert(beer) {
-        this.beerInsertRepository.insert(beer);
+        return this.beerInsertRepository.insert(beer);
     }
 }
 

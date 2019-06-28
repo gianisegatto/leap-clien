@@ -1,6 +1,7 @@
 const INSERT_BEER = "INSERT INTO beers (name, description, price) VALUES(?, ?, ?)";
 
 class BeerInsertRepository {
+    
     constructor(datasource) {
         this.datasource = datasource;
     }

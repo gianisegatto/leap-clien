@@ -1,3 +1,5 @@
+const promiseHandler = require("leap-web").promiseHandler;
+
 class BeerCreateRouterBuilder {
     
     constructor(router, beerInsertService) {
@@ -6,8 +8,8 @@ class BeerCreateRouterBuilder {
     }
 
     build() {
-        this.router.post("/beer/", (req, res, next) => {
-            this.beerInsertService.insert(req.body);
+        this.router.post("/beers/", (req, res, next) => {
+            promiseHandler.handle(this.beerInsertService.insert(req.body), res, next, 204);
         })
         return this.router;
     }
