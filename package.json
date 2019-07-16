@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "leap-core": "github:gianisegatto/leap-core#master",
-    "leap-boot-bond-data-mysql": "github:gianisegatto/leap-boot-bond-data-mysql#master",
-    "leap-boot-web": "github:gianisegatto/leap-boot-web#master"
+    "leap-runner-plugin-data-mysql": "github:gianisegatto/leap-runner-plugin-data-mysql#master",
+    "leap-runner-web": "github:gianisegatto/leap-runner-web#master"
   }
 }
