@@ -9,7 +9,7 @@ class BeerCreateRouterBuilder {
 
     build() {
         this.router.post("/beers/", (req, res, next) => {
-            promiseHandler.handle(this.beerInsertService.insert(req.body), res, next, 204);
+            promiseHandler.handle(this.beerInsertService.insert(req.body), req, res, next, 204);
         })
         return this.router;
     }

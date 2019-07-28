@@ -9,7 +9,7 @@ class BeerListRouterBuilder {
 
     build() {
         this.router.get("/beers/", (req, res, next) => {
-            promiseHandler.handle(this.beerListService.list(), res, next);
+            promiseHandler.handle(this.beerListService.list(), req, res, next);
         })
         return this.router;
     }

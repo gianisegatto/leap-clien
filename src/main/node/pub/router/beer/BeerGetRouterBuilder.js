@@ -9,7 +9,7 @@ class BeerGetRouterBuilder {
 
     build() {
         this.router.get("/beers/:id", (req, res, next) => {
-            promiseHandler.handle(this.beerFindService.findById(req.params.id), res, next);
+            promiseHandler.handle(this.beerFindService.findById(req.params.id), req, res, next);
         })
         return this.router;
     }

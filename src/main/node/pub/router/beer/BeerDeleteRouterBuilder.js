@@ -9,7 +9,7 @@ class BeerDeleteRouterBuilder {
 
     build() {
         this.router.delete("/beers/:id", (req, res, next) => {
-            promiseHandler.handle(this.beerDeleteService.delete(req.params.id), res, next, 204);
+            promiseHandler.handle(this.beerDeleteService.delete(req.params.id), req, res, next, 204);
         })
         return this.router;
     }
