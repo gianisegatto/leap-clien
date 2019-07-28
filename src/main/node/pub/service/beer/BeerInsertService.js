@@ -1,4 +1,4 @@
-class BeerInserService {
+class BeerInsertService {
 
     constructor(beerInsertRepository) {
         this.beerInsertRepository = beerInsertRepository;
@@ -9,4 +9,4 @@ class BeerInserService {
     }
 }
 
-module.exports = BeerInserService;
+module.exports = BeerInsertService;

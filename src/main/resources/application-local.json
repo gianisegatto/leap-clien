@@ -6,7 +6,7 @@
         "user": "root",
         "pass": "",
         "database": "pub",
-        "poolsize": 5,
+        "connectionLimit": 5,
         "ssl": {
           "rejectUnauthorized": false
         }
