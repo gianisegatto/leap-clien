@@ -1,4 +1,4 @@
-const promiseHandler = require("leap-web").promiseHandler;
+const promiseHandler = require("leap-web-express").promiseHandler;
 
 class BeerGetRouterBuilder {
     

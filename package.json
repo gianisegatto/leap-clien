@@ -11,6 +11,6 @@
   "dependencies": {
     "leap-core": "github:gianisegatto/leap-core#master",
     "leap-runner-plugin-data-mysql": "github:gianisegatto/leap-runner-plugin-data-mysql#master",
-    "leap-runner-web": "github:gianisegatto/leap-runner-web#master"
+    "leap-runner-web-express": "github:gianisegatto/leap-runner-web-express#master"
   }
 }

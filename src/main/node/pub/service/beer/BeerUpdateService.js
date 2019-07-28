@@ -1,5 +1,5 @@
-const WebErrorBuilder = require("leap-web").WebErrorBuilder;
-const ErrorCode = require("leap-web").ErrorCode;
+const WebErrorBuilder = require("leap-web-express").WebErrorBuilder;
+const ErrorCode = require("leap-web-express").ErrorCode;
 
 class BeerUpdateService {
     constructor(beerUpdateRepository) {

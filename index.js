@@ -1,3 +1,3 @@
-const LeapWebApplication = require("leap-runner-web").LeapWebApplication;
+const LeapWebApplication = require("leap-runner-web-express").LeapWebApplication;
 
 LeapWebApplication.run();
