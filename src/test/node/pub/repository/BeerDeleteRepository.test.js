@@ -11,7 +11,7 @@ describe("BeerDeleteRepository", () => {
         const beerId = 1;
 
         const datasource = {
-            query(statement, values) { }
+            query(statement, values) {}
         };
 
         const mokedDatasource = sinon.mock(datasource);
