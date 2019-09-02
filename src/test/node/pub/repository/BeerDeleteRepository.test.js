@@ -18,7 +18,7 @@ describe("BeerDeleteRepository", () => {
 
         const deleteRepository = new BeerDeleteRepository(datasource);
 
-        const expectedPromise = new Promise(resolve => { });
+        const expectedPromise = new Promise(resolve => resolve());
 
         mokedDatasource.expects("query").withExactArgs(DELETE_BEER, [beerId]).returns(expectedPromise);
         
