@@ -4,7 +4,9 @@
   "description": "This is a demo how to use leap in your projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/eslint ./src/main/node/**; mocha ./src/test --recursive",
+    "coverage": "nyc --reporter=text --all mocha ./src/test --recursive",
+    "eslint": "./node_modules/.bin/eslint ./src/main/node/**"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +14,13 @@
     "leap-core": "github:gianisegatto/leap-core#master",
     "leap-runner-plugin-data-mysql": "github:gianisegatto/leap-runner-plugin-data-mysql#master",
     "leap-runner-web-express": "github:gianisegatto/leap-runner-web-express#master"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.9.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "sinon": "^7.1.1"
   }
 }

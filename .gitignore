@@ -9,3 +9,5 @@ package-lock.json
 
 .idea
 .idea/vcs.xml
+
+.nyc_output
